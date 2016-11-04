@@ -1,0 +1,603 @@
+body {
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: rgba(45, 133, 193, 1);
+	color: rgba(255, 255, 255, 1);
+	padding: 50px;
+}
+
+.menutriggercheckbox {
+	display: none;
+}
+
+.menutrigger {
+	display: none;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.header .wrapper {
+	max-width: 1000px;
+	text-align: center;
+	margin-bottom: 200px;
+}
+
+.barasus {
+	overflow: hidden;
+	font-size: 12px;
+	font-weight: 600;
+	padding-top: 14px;
+}
+
+.lista {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+	overflow: hidden;
+}
+
+.buton {
+	float: left;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+/* - de ce trebuie sa fie floatul in buton si nu poate fi in lista
+- de ce a trebuit sa pun padding si background la .alink ca sa functioneze display:block?*/
+
+.alink {
+	display: block;
+	text-decoration: none;
+	margin: 0 10px;
+	padding: 11px 19px;
+	color: rgba(255, 255, 255, 1);
+	text-transform: uppercase;
+}
+
+.alink:hover {
+	background-color: rgba(20, 82, 113, 1);
+	border-radius: 3px;
+}
+
+.logo {
+	float: left;
+	border-radius: 50px;
+}
+
+.paragraf.big {
+	font-size: 3em;
+	font-weight: 300;
+	margin: 120px 0 16px 0;
+}
+
+.paragraf {
+	font-size: 1.3em;
+	margin: 0 auto 84px auto;
+}
+
+.abutton {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: rgba(255, 255, 255, 1);
+	padding: 20px 30px;
+	font-size: 0.9em;
+	background-color: rgba(150, 206, 78, 1);
+	border-radius: 50px;
+	letter-spacing: 0.1em;
+	display: inline-block;
+	text-align: center;
+}
+
+.select {
+	display: inline-block;
+	text-transform: uppercase;
+	margin-left: 28px;
+	padding-bottom: 4px;
+	padding-right: 15px;
+	border-bottom: 0.4px solid rgba(255, 255, 255, 0.4);
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+}
+
+.section1 .wrapper {
+	max-width: 670px;
+	text-align: center;
+}
+
+.section1 {
+	margin: 53px auto 60px auto;
+}
+
+.sec1h2 {
+	text-align: center;
+	font-weight: 300;
+	font-size: 2.1em;
+	color: rgb(74, 82, 91);
+}
+
+.sec1p {
+	font-size: 1.1em;
+	color: rgb(163, 170, 178);
+	line-height: 176%;
+	margin-bottom: 27px;
+}
+
+.sec1div {
+	width: 28px;
+	border-bottom: 3px solid;
+	border-color: rgb(25, 169, 217);
+	margin: auto;
+}
+
+.section2 {
+	background: rgb(243, 244, 246);
+}
+
+.sec2h2 {
+	text-align: center;
+	padding-top: 60px;
+	color: rgb(104, 110, 118);
+	font-weight: 300;
+	font-size: 2em;
+	margin-bottom: 0;
+}
+
+.sec2h5 {
+	text-align: center;
+	color: rgb(159, 166, 175);
+	font-size: 0.9em;
+	font-weight: 400;
+	margin: 7px 0 50px 0;
+}
+
+.sec2ul {
+	overflow: hidden;
+	list-style-type: none;
+	padding: 0 0 66px 0;
+	margin: 0;
+	/*de ce i-a pus margine automat? */
+}
+
+.sec2ulh4 {
+	color: rgb(77, 84, 93);
+	font-size: 1.2em;
+	font-weight: 400;
+	margin-bottom: 16px;
+}
+
+.sec2li {
+	width: 33%;
+	float: left;
+	padding: 0 5%;
+	text-align: center;
+}
+
+.sec2ulp {
+	color: rgb(153, 161, 170);
+	font-size: 0.8em;
+}
+
+.sec2img {
+	border-radius: 70px;
+}
+
+.sec3li:nth-child(2) {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.sec3li {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.sec3li:first-child {
+	text-align: right;
+	padding-left: 5%;
+}
+
+.sec3li:last-child {
+	text-align: left;
+	padding-right: 5%;
+}
+
+.sec3lih5 {
+	text-transform: uppercase;
+}
+
+.sec3img {
+	max-width: 100%;
+	padding-top: auto;
+	margin-top: 20px;
+}
+
+.section3 .sec2h2 {
+	margin-top: 0;
+}
+
+.section4 {
+	background-color: rgb(70, 90, 111);
+	color: rgb(255, 255, 255);
+	overflow: hidden;
+}
+
+.section4 .wrapper {
+	max-width: 670px;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.sec4p {
+	padding: 70px 0 40px 0;
+	font-weight: 500;
+	line-height: 1.7em;
+	letter-spacing: 0.9px;
+	margin: 0;
+}
+
+.sec4img {
+	float: left;
+	margin-right: 20px;
+	margin-top: -10px;
+	border-radius: 50%;
+}
+
+.sec4ptst {
+	margin: 0;
+	text-align: left;
+}
+
+.sec4ptst:nth-child(2) {
+	text-transform: uppercase;
+}
+
+.sec4div {
+	width: 230px;
+	margin: 0 auto;
+}
+
+.section5 {
+	background: linear-gradient(to right, #3293d4 0%, #3293d4 50%, #429cd8 50%, #429cd8 100%);
+}
+
+.sec5h2 {
+	text-align: center;
+	margin: 0;
+	color: #ffffff;
+	font-weight: 300;
+	line-height: 1.3em;
+	font-size: 1.8em;
+}
+
+.section5 .wrapper {
+	padding: 70px 0 80px 0;
+}
+
+.sec5div {
+	max-width: 305px;
+	margin: 45px auto 0 auto;
+}
+
+.sec5input {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	border: none;
+	padding: 13px 10px 13px 50px;
+	background-image: url(http://placehold.it/45x41);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.sec5btn {
+	display: block;
+	width: 100%;
+	border: none;
+	padding: 13px 0;
+	border-radius: 4px;
+	background: #2a435e;
+	color: #ffffff;
+	font-family: "Open Sans";
+}
+
+.sec5textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	border: none;
+	padding: 13px;
+	border-radius: 4px;
+	vertical-align: top;
+}
+
+::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	font-family: "Open Sans";
+	font-style: italic;
+}
+
+::-moz-placeholder {
+	/* Firefox 19+ */
+	font-family: "Open Sans";
+	font-style: italic;
+}
+
+:-ms-input-placeholder {
+	/* IE 10+ */
+	font-family: "Open Sans";
+	font-style: italic;
+}
+
+:-moz-placeholder {
+	/* Firefox 18- */
+	font-family: "Open Sans";
+	font-style: italic;
+}
+
+.footer {
+	background: #273e57;
+}
+
+.footer .wrapper {
+	padding: 40px 0;
+	max-width: 1000px;
+	overflow: hidden;
+}
+
+.footerul {
+	list-style-type: none;
+	float: left;
+	padding: 0;
+	margin-top: 20px;
+}
+
+.ftlogo {
+	float: left;
+	border-radius: 50%;
+	margin-right: 24px;
+}
+
+.ftbuton {
+	float: left;
+	margin-right: 30px;
+	text-transform: uppercase;
+	font-size: 0.6em;
+}
+
+.ftbuton:last-child {
+	margin: 0;
+}
+
+.footerula {
+	list-style-type: none;
+	float: right;
+	padding: 0;
+	margin: 10px 0;
+}
+
+.ulaimg {
+	border-radius: 50%;
+	width: 30px;
+}
+
+.footli {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.ftbutona {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.ftbutona:hover {
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 1100px) {
+	.footer {
+		padding: 0 20px;
+	}
+}
+
+@media only screen and (max-width: 980px) {
+	.sec3li {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.sec3li:first-child {
+		padding: 0;
+	}
+	.sec3li:last-child {
+		padding: 0;
+	}
+	.sec3lih5 {
+		text-align: center;
+	}
+	.sec2ulp {
+		text-align: center;
+		max-width: 360px;
+		margin: 0 auto;
+	}
+	.section3 {
+		padding: 0 50px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.menu {
+		display: none;
+		width: 60px;
+		margin: 70px auto 0 auto;
+	}
+	.menutrigger {
+		display: block;
+		float: right;
+		cursor: pointer;
+	}
+	.menutriggercheckbox:checked ~ .menu {
+		display: block;
+	}
+	.buton {
+		float: none;
+	}
+	.alink {
+		margin: 0;
+		padding: 11px 0;
+	}
+	.lista {
+		margin: 0 0 0 -65px;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.section1 {
+		padding: 0 20px;
+	}
+}
+
+@media only screen and (max-width: 725px) {
+	.sec2li {
+		float: none;
+		padding: 0;
+		margin: 0 auto 50px auto;
+		width: 100%;
+	}
+	.section2 {
+		padding: 0 20px;
+	}
+	.sec2ulp {
+		max-width: 260px;
+		margin: 0 auto 20px auto;
+	}
+	.section4 {
+		padding: 0 20px;
+	}
+	.sec2h5 {
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 560px) {
+	.paragraf.big {
+		font-size: 2.1em;
+	}
+	.paragraf {
+		font-size: 1.1em;
+	}
+	.section5 {
+		padding: 0 20px;
+	}
+	.sec5h2 {
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	.footer {
+		padding: 0 20px;
+	}
+	.ftlogo {
+		float: none;
+		margin: 0 0 30px 0;
+	}
+	.footerul {
+		float: none;
+		overflow: hidden;
+		width: 178px;
+		margin: 0 auto 35px auto;
+	}
+	.footerula {
+		float: none;
+	}
+	.footer .wrapper {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.sec4p {
+		font-size: 0.9em;
+	}
+	.sec4ptst {
+		font-size: 1em;
+	}
+	.sec5h2 {
+		font-size: 1.4em;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.sec5h2 {
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 440px) {
+	.select {
+		margin-top: 28px;
+		margin-left: 0;
+	}
+	.abutton {
+		display: block;
+		max-width: 170px;
+		margin: 0 auto;
+	}
+	.sec1h2 {
+		font-size: 1.9em;
+	}
+	.sec2h2 {
+		font-size: 1.9em;
+	}
+	.sec1p {
+		font-size: 0.9em;
+	}
+	.sec5h2 {
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.paragraf.big {
+		font-size: 1.5em;
+		margin-top: 50px;
+	}
+	.paragraf {
+		font-size: 1em;
+		margin-bottom: 70px;
+	}
+	.logo {
+		float: left;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	.sec5h2 {
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.sec5input {
+		width: 100%;
+	}
+}
