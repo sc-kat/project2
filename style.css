@@ -523,11 +523,12 @@ body {
 	.footerul {
 		float: none;
 		overflow: hidden;
-		width: 178px;
-		margin: 0 auto 35px auto;
+		margin: 0 0 35px 0;
+		display: inline-block;
 	}
 	.footerula {
 		float: none;
+		margin: 0;
 	}
 	.footer .wrapper {
 		text-align: center;
