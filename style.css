@@ -510,6 +510,9 @@ body {
 	.sec5h2 {
 		font-size: 1.5em;
 	}
+	.header .wrapper {
+		margin-bottom: 150px;
+	}
 }
 
 @media only screen and (max-width: 530px) {
@@ -600,5 +603,8 @@ body {
 @media only screen and (max-width: 400px) {
 	.sec5input {
 		width: 100%;
+	}
+	.header .wrapper {
+		margin-bottom: 140px;
 	}
 }
